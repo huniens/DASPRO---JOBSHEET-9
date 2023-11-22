@@ -11,11 +11,11 @@ public class Numbers13 {
         myNumbers[1] = new int [3];
         myNumbers[2] = new int [1];
 
-       //for (int i = 0; i <myNumbers.length; i++){
-           // System.out.println(Arrays.toString(myNumbers[i]));
-
-        for (int i =0; i <myNumbers.length; i++){
-            System.out.println("Length of row " + (i+1)+ ": " + myNumbers[i].length);
+        for (int i = 0; i < myNumbers.length; i++) {
+            System.out.println(Arrays.toString(myNumbers[i]));
         }
+        for (int i = 0; i < myNumbers.length; i++) {
+            System.out.println("Length of row " + (i + 1) + ": " + myNumbers[i].length);
         }
     }
+}
